@@ -1,0 +1,14 @@
+{
+  "name": "onecount-notify",
+  "description": "Onecount Notify app (App 2) plugin with specialized agents, commands, and project brief integration. Phase 1 app: BYOAPI email/SMS, webhooks, templates",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["onecount", "notify", "shopify", "phase1"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"]
+}

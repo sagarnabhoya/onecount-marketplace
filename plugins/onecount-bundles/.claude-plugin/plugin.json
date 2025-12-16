@@ -1,0 +1,14 @@
+{
+  "name": "onecount-bundles",
+  "description": "Onecount Bundles app (App 7) plugin with specialized agents, commands, and project brief integration. Phase 3 app: Cart transform functions, bundle builder",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["onecount", "bundles", "shopify", "phase3"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"]
+}

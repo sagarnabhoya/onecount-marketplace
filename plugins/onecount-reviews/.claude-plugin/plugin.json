@@ -1,0 +1,14 @@
+{
+  "name": "onecount-reviews",
+  "description": "Onecount Reviews app (App 3) plugin with specialized agents, commands, and project brief integration. Phase 2 app: Photo/video reviews, Q&A, SEO integration",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["onecount", "reviews", "shopify", "phase2"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"]
+}

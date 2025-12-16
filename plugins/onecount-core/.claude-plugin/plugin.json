@@ -1,0 +1,16 @@
+{
+  "name": "onecount-core",
+  "description": "Core orchestrator plugin for Onecount ecosystem. Provides project briefer workflow, Linear MCP integration, automatic progress tracking, and ecosystem-wide agents. INSTALL THIS FIRST before any app-specific plugins.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "homepage": "https://github.com/onesita/onecount-marketplace",
+  "license": "MIT",
+  "keywords": ["onecount", "orchestrator", "linear", "shopify", "project-briefer"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "./.mcp.json"
+}

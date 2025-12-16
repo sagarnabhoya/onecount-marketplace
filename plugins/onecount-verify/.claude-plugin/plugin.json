@@ -1,0 +1,14 @@
+{
+  "name": "onecount-verify",
+  "description": "Onecount Verify app (App 14) plugin with specialized agents, commands, and project brief integration. Phase 4 app: Age verification, BYOAPI providers",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["onecount", "verify", "shopify", "phase4"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"]
+}

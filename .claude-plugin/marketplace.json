@@ -1,0 +1,150 @@
+{
+  "name": "onecount-ecosystem",
+  "owner": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "metadata": {
+    "description": "Complete plugin ecosystem for Onecount Shopify apps - 15 interconnected apps with orchestrator pattern, Linear integration, and automated progress tracking",
+    "version": "1.0.0",
+    "homepage": "https://github.com/onesita/onecount-marketplace"
+  },
+  "plugins": [
+    {
+      "name": "onecount-core",
+      "source": "./plugins/onecount-core",
+      "description": "Core orchestrator plugin with project briefer, Linear integration, progress tracking, and ecosystem-wide agents. Install this first.",
+      "version": "1.0.0",
+      "category": "core",
+      "tags": ["orchestrator", "linear", "progress", "project-briefer"]
+    },
+    {
+      "name": "onecount-shopify-validator",
+      "source": "./plugins/onecount-shopify-validator",
+      "description": "Auto-validates GraphQL, Polaris components, and Liquid templates using Shopify MCP tools",
+      "version": "1.0.0",
+      "category": "validation",
+      "tags": ["shopify", "graphql", "polaris", "liquid", "validation"]
+    },
+    {
+      "name": "onecount-wishlist",
+      "source": "./plugins/onecount-wishlist",
+      "description": "Onecount Wishlist app (App 1) - Multiple lists, conversion analytics, sharing. Phase 1 Foundation.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["wishlist", "phase1", "customer-metafields", "theme-extension"]
+    },
+    {
+      "name": "onecount-notify",
+      "source": "./plugins/onecount-notify",
+      "description": "Onecount Notify app (App 2) - BYOAPI email/SMS/push notifications. Phase 1 Foundation.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["notify", "phase1", "byoapi", "smtp", "webhooks"]
+    },
+    {
+      "name": "onecount-reviews",
+      "source": "./plugins/onecount-reviews",
+      "description": "Onecount Reviews app (App 3) - Photo/video reviews, Q&A. Phase 2 Trust.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["reviews", "phase2", "ugc", "seo-integration"]
+    },
+    {
+      "name": "onecount-loyalty",
+      "source": "./plugins/onecount-loyalty",
+      "description": "Onecount Loyalty app (App 4) - Points, tiers, referrals. Phase 2 Retention.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["loyalty", "phase2", "points", "tiers", "checkout-extension"]
+    },
+    {
+      "name": "onecount-promos",
+      "source": "./plugins/onecount-promos",
+      "description": "Onecount Promos app (App 5) - Shopify Functions discounts, BOGO, flash sales. Phase 3 Revenue.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["promos", "phase3", "shopify-functions", "discounts"]
+    },
+    {
+      "name": "onecount-upsell",
+      "source": "./plugins/onecount-upsell",
+      "description": "Onecount Upsell app (App 6) - Smart recommendations, cart upsells. Phase 3 Revenue.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["upsell", "phase3", "checkout-extension", "recommendations"]
+    },
+    {
+      "name": "onecount-bundles",
+      "source": "./plugins/onecount-bundles",
+      "description": "Onecount Bundles app (App 7) - Fixed & build-your-own bundles. Phase 3 Revenue.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["bundles", "phase3", "shopify-functions", "cart-transform"]
+    },
+    {
+      "name": "onecount-customizer",
+      "source": "./plugins/onecount-customizer",
+      "description": "Onecount Customizer app (App 8) - Product options simple & advanced. Phase 3 Revenue.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["customizer", "phase3", "product-options", "theme-extension"]
+    },
+    {
+      "name": "onecount-gifts",
+      "source": "./plugins/onecount-gifts",
+      "description": "Onecount Gifts app (App 9) - Gift cards, store credit. Phase 4 Complete.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["gifts", "phase4", "gift-cards", "store-credit"]
+    },
+    {
+      "name": "onecount-seo",
+      "source": "./plugins/onecount-seo",
+      "description": "Onecount SEO app (App 10) - On-page SEO toolkit. Phase 4 Complete.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["seo", "phase4", "meta-tags", "structured-data", "reviews-integration"]
+    },
+    {
+      "name": "onecount-inventory",
+      "source": "./plugins/onecount-inventory",
+      "description": "Onecount Inventory app (App 11) - Stock tracking, audit trail. Phase 4 Complete.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["inventory", "phase4", "stock-alerts", "notify-integration"]
+    },
+    {
+      "name": "onecount-b2b",
+      "source": "./plugins/onecount-b2b",
+      "description": "Onecount B2B app (App 12) - Wholesale pricing, company accounts. Phase 4 Complete.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["b2b", "phase4", "wholesale", "shopify-functions", "forms-integration"]
+    },
+    {
+      "name": "onecount-forms",
+      "source": "./plugins/onecount-forms",
+      "description": "Onecount Forms app (App 13) - Contact, quote, survey forms. Phase 4 Complete.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["forms", "phase4", "submissions", "b2b-integration"]
+    },
+    {
+      "name": "onecount-verify",
+      "source": "./plugins/onecount-verify",
+      "description": "Onecount Verify app (App 14) - Age verification, compliance. Phase 4 Complete.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["verify", "phase4", "age-gate", "compliance", "byoapi"]
+    },
+    {
+      "name": "onecount-analytics",
+      "source": "./plugins/onecount-analytics",
+      "description": "Onecount Analytics app (App 15) - Unified customer intelligence. Phase 4+ Complete.",
+      "version": "1.0.0",
+      "category": "app",
+      "tags": ["analytics", "phase4", "rfm", "customer-profiles", "all-apps-integration"]
+    }
+  ]
+}

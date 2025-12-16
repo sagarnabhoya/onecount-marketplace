@@ -1,0 +1,13 @@
+{
+  "name": "onecount-shopify-validator",
+  "description": "Automatic validation for Shopify code - GraphQL, Polaris components, and Liquid templates. Hooks into file saves to validate before commit.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["shopify", "validation", "graphql", "polaris", "liquid"],
+  "commands": ["./commands/"],
+  "hooks": "./hooks/hooks.json"
+}

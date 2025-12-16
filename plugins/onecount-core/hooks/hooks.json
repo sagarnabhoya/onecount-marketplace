@@ -1,0 +1,47 @@
+{
+  "PostToolUse": [
+    {
+      "matcher": "Write|Edit|MultiEdit",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '[PROGRESS] File modified at $(date): $CLAUDE_TOOL_ARGS' >> PROGRESS.md 2>/dev/null || true"
+        }
+      ]
+    },
+    {
+      "matcher": "Task",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '[TASK DELEGATED] $(date): Subagent invoked' >> PROGRESS.md 2>/dev/null || true"
+        }
+      ]
+    }
+  ],
+  "PreToolUse": [
+    {
+      "matcher": "Write|Edit",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "test -f TASK_QUEUE.md && grep -q 'In Progress' TASK_QUEUE.md || echo '[WARNING] No task marked In Progress in TASK_QUEUE.md' >&2"
+        }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "if [ -f PROGRESS.md ]; then echo '\\n---\\n## Session End: '$(date)'\\n' >> PROGRESS.md; fi"
+        },
+        {
+          "type": "command",
+          "command": "if [ -f TASK_QUEUE.md ]; then echo '[SESSION END] Remember to commit PROGRESS.md and TASK_QUEUE.md' >&2; fi"
+        }
+      ]
+    }
+  ]
+}

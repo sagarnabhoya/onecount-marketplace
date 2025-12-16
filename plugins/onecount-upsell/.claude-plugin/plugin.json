@@ -1,0 +1,14 @@
+{
+  "name": "onecount-upsell",
+  "description": "Onecount Upsell app (App 6) plugin with specialized agents, commands, and project brief integration. Phase 3 app: Checkout recommendations, AI suggestions",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["onecount", "upsell", "shopify", "phase3"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"]
+}

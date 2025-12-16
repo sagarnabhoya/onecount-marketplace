@@ -1,0 +1,14 @@
+{
+  "name": "onecount-b2b",
+  "description": "Onecount B2b app (App 12) plugin with specialized agents, commands, and project brief integration. Phase 4 app: Wholesale pricing, company accounts, Functions",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["onecount", "b2b", "shopify", "phase4"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"]
+}

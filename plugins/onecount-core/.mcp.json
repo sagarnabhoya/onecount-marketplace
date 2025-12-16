@@ -1,0 +1,10 @@
+{
+  "linear": {
+    "command": "npx",
+    "args": ["-y", "@linear/mcp-server"],
+    "env": {
+      "LINEAR_API_KEY": "${LINEAR_API_KEY}"
+    },
+    "description": "Linear MCP for task tracking and progress management. Set LINEAR_API_KEY in your environment."
+  }
+}

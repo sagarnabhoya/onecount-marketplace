@@ -1,0 +1,14 @@
+{
+  "name": "onecount-gifts",
+  "description": "Onecount Gifts app (App 9) plugin with specialized agents, commands, and project brief integration. Phase 4 app: Gift cards, store credit, wrap options",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["onecount", "gifts", "shopify", "phase4"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"]
+}

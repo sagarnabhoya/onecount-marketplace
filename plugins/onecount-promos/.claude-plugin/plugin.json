@@ -1,0 +1,14 @@
+{
+  "name": "onecount-promos",
+  "description": "Onecount Promos app (App 5) plugin with specialized agents, commands, and project brief integration. Phase 3 app: Shopify Functions discounts, BOGO, flash sales",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onesita Tech",
+    "email": "sagar@onesita.tech"
+  },
+  "license": "MIT",
+  "keywords": ["onecount", "promos", "shopify", "phase3"],
+  "commands": ["./commands/"],
+  "agents": ["./agents/"],
+  "skills": ["./skills/"]
+}
